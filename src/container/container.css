@@ -9,9 +9,6 @@
     flex-direction: column;
 }
 
-.content {
-    flex: 1;
-}
 .obtendras{
     display: flex;
     justify-content: center;
@@ -20,6 +17,7 @@
 }
 
 .textObtendras{
+    text-align: center;
     font-size: 42px;
     font-weight: 700;
 }
