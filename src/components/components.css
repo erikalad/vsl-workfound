@@ -1,0 +1,110 @@
+.nav {
+    position: fixed; /* Fija la barra de navegación */
+    top: 0; /* Alínea en la parte superior */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px 0; /* Añade un poco de padding */
+    border-bottom: 1px solid #FA6501; /* Línea naranja debajo del nav */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para un poco de profundidad */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Efecto de desenfoque para Safari */
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 150px;
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    border-top: 1px solid #FA6501; /* Línea naranja debajo del nav */
+}
+
+.logoFooter { 
+    width: 200px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantiene la proporción del logo */
+}
+.card {
+    border: 2px solid #FA6501;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-around;
+    margin: 20px auto;
+    padding:40px;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Efecto de desenfoque para Safari */
+  }
+  
+  .column {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    margin-right: 20px; /* Espacio entre las columnas */
+  }
+  
+  .custom-list {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding-left: 0; /* Elimina el padding izquierdo */
+  }
+  
+  .custom-list li {
+    display: flex; /* Utiliza flexbox para alinear el ícono y el texto */
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+  }
+  
+  .custom-list li svg {
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+  }
+  
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+
+.textPropuesta{
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.textAntes{
+  font-size: 1.5rem;
+  color:rgb(205, 207, 210)
+}
+
+.propuesta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap:10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.boton-agendar {
+  padding: 15px 30px; /* Ajusta el padding según sea necesario */
+  background-color: #FA6501;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px; /* Tamaño de fuente */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+  transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+
+  /* Opcional: Hover styles para interacción */
+  &:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada en hover */
+  }
+}

@@ -1,0 +1,33 @@
+/* Contenedor con imagen de fondo */
+.containerVsl1 {
+    background: url('./../assets/fondo.png') no-repeat center center; /* Ruta a la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+    padding-top: 60px; /* Ajuste de padding según tus necesidades */
+    color: white; /* Color del texto para mejor visibilidad sobre fondo oscuro */
+    min-height: 100vh; /* Hace que el contenedor tenga al menos la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+.obtendras{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textObtendras{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px
+}
