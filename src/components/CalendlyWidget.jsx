@@ -15,6 +15,7 @@ export default function CalendlyWidget() {
 
   return (
     <div
+      className="calendly-inline-widget"
       id="calendly"
       data-url="https://calendly.com/worksfound/demo"
       style={{ minWidth: "320px", height: "700px" }}
